@@ -12,8 +12,9 @@ Just download _burn_ from github using `go get` or the _pre-build_ binary and us
 Make sure you have [golang](https://golang.org/) installed and `GOPATH` correctly set.
 
 ```bash
-$ go get github.com/spiermar/burn
-$ burn $GOPATH/src/github.com/spiermar/burn/examples/out.perf
+$ go get github.com/codeperfio/burn
+$ make
+$ burn ./examples/out.perf
 ```
 
 ### From binary
@@ -99,6 +100,7 @@ If you have code to submit, follow the general pull request format. Fork the rep
 
 ## License
 
+Copyright 2021 Filipe Oliveira. All Rights Reserved.
 Copyright 2017 Martin Spier. All Rights Reserved.
 
 Licensed under the Apache License, Version 2.0 (the “License”); you may not use this file except in compliance with the License. You may obtain a copy of the License at
